@@ -12,11 +12,14 @@ p {
 }
 
 .NavigationMenuRoot {
-    position: relative;
+    position: fixed;
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .NavigationMenuList {
