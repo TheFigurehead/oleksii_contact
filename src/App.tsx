@@ -1,6 +1,6 @@
 import './assets/index.scss';
 
-import {Menu, Container} from './components';
+import {Menu, Container, Message} from './components';
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
     <>
     <Menu />
     <Container>
+      <Message />
       <h2>Heading</h2>
       <h2>Heading</h2>
       <h2>Heading</h2>

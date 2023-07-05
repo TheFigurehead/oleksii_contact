@@ -1,0 +1,29 @@
+.message {
+    background-image: url('./../../assets/svg/bubble-message.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10rem;
+    position: fixed;
+    background-color: transparent;
+    right: 30px;
+    bottom: 60px;
+    color: #4AF626;
+    .wrapper {
+        color: #4AF626;
+        // font-size: 2rem;
+        // text-align: left;
+        // position: absolute;
+        // right: 0;
+        // top: 0;
+        // bottom: 0;
+        // width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .text {
+            .transparent {
+                opacity: 0.1;
+            }
+        }
+    }
+}
